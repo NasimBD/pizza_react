@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pizza_react/static/css/main.31d6cfe0.css",
+    "main.js": "/pizza_react/static/js/main.f89e0b2b.js",
+    "static/media/pizza-header.jpg": "/pizza_react/static/media/pizza-header.4107530b5716a8197d23.jpg",
+    "static/media/banner.jpg": "/pizza_react/static/media/banner.ed97fe19ea81a96d0660.jpg",
+    "static/media/Brownies_0-SQ.jpg": "/pizza_react/static/media/Brownies_0-SQ.58cc1db74b3cd3b1666d.jpg",
+    "static/media/Chocolate-Donuts-16-square-1.webp": "/pizza_react/static/media/Chocolate-Donuts-16-square-1.4d0d66cff6f0cd607a1b.webp",
+    "static/media/veggie.jpg": "/pizza_react/static/media/veggie.2ec6e446d41c9f6994b4.jpg",
+    "static/media/sausage-and-alfredo-pizza-1024x731.jpg": "/pizza_react/static/media/sausage-and-alfredo-pizza-1024x731.16c049ddbb81d50861f5.jpg",
+    "static/media/spicy-hawaiian-pizza.jpg": "/pizza_react/static/media/spicy-hawaiian-pizza.78a337e6407e821b9ea6.jpg",
+    "static/media/caramel-bread-pudding-1.jpg": "/pizza_react/static/media/caramel-bread-pudding-1.f84c40613a5669adb3c2.jpg",
+    "index.html": "/pizza_react/index.html",
+    "main.f89e0b2b.js.map": "/pizza_react/static/js/main.f89e0b2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.f89e0b2b.js"
+  ]
+}
