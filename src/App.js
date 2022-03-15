@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router} from 'react-router-dom';
+import {GlobalStyle} from './GlobalStyle'; 
+import { Hero } from './components/Hero/Index';
+import { Products } from './components/products/Products';
+import { PizzaData, DessertData, FeatureData} from './components/products/data';
+import { Feature } from './components/Feature';
+import { Footer } from './components/Footer';
+import {SocialMediaData} from './components/Footer/socialMediaData';
+
+
+// import { useState } from 'react';
 
 function App() {
+  // const [isOpen, setOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <GlobalStyle/>
+      <Hero/>
+      <Products 
+      heading="Choose your favorite pizza"
+      products={PizzaData}
+      />
+      <Feature
+      heading="Feature of the day"
+      product={FeatureData}
+      />
+      <Products 
+      heading="Sweet treat for you"
+      products={DessertData}
+      />
+      <Footer socialMediaData={SocialMediaData}/>
+    </Router>
+
   );
 }
 
